@@ -28,7 +28,10 @@ module.exports = {
     /*
      ** Global CSS
      */
-    css: [],
+    css: [
+        // node.js module but we specify the pre-processor
+        { src: 'bulma/bulma.sass', lang: 'sass' }
+    ],
 
     /*
      ** Plugins to load before mounting the App
